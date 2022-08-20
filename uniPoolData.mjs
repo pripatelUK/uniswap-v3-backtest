@@ -1,5 +1,3 @@
-import fetch from 'node-fetch'
-
 const urlForProtocol = (protocol) => {
   return protocol === 1 ? "https://api.thegraph.com/subgraphs/name/ianlapham/optimism-post-regenesis" : 
     protocol === 2 ? "https://api.thegraph.com/subgraphs/name/ianlapham/arbitrum-minimal" :
